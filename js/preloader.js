@@ -10,8 +10,8 @@ padding:"inner"+a,content:b,"":"outer"+a},function(c,d){n.fn[d]=function(d,e){va
 //<![CDATA[
   $(window).on('load', function () {
     $('#preloader .inner').delay(2000).fadeOut();
-    $('#preloader').delay(1000).fadeOut('slow'); 
-    $('body').delay(5).css({'overflow': 'visible'});
+    $('#preloader').delay(500).fadeOut('slow'); 
+    $('body').delay(3).css({'overflow': 'visible'});
   })
   //]]>
   
