@@ -742,7 +742,7 @@ border-bottom: 5px solid #FFD700; /* deixa botão em 3D  e com borda*/
 /*************************************************************************/
 
 #container-pedidos-ID{  /* <section class="especialidades"> */
-    padding: 13px 25px;    /*altura dos cards Afastamento dos cards para o lador*/ 
+    padding: 13px 20px;    /*altura dos cards Afastamento dos cards para o lador*/ 
     display: inline-block;
 }
 
