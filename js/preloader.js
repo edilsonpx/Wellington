@@ -14,4 +14,17 @@ padding:"inner"+a,content:b,"":"outer"+a},function(c,d){n.fn[d]=function(d,e){va
     $('body').delay(3).css({'overflow': 'visible'});
   })
   //]]>
+
+
+
+
+<!-- início do preloader -->
+  <div id="preloader">
+    <div class="inner">
+     <img src="imagens/fuguete.gif">
+     </div>
+</div>
+<!-- fim do preloader --> 
+
+
   
