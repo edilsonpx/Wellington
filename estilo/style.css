@@ -1148,7 +1148,7 @@ margin: 0px;
 .card{
     border-radius: 10px;
 width: 184px;
-height: 322px;
+height: 330px;
 background-color: #F8F8FF;
 overflow: hidden;
 box-shadow: 0px 0px 10px rgb(0, 0, 0.7);
@@ -1182,6 +1182,23 @@ box-shadow: 0px 0px 10px rgb(0, 0, 0.7);
     color: #FFF;
     font-weight: 1000; /* fonte com borda negrito */
         border-radius: 10px;
+
+
+    }
+
+#descriçaoPreço{
+
+        padding: 2%;  /* tamanho das pordas*/
+     border: 3px solid black ;  /* cor da borta das fotos*/
+   cursor: pointer;  /*cursor pra foto*/
+   width: fit-content;  /* alargura vai se adapta ao conteudo*/
+   background: #FF0000 ;
+    font-size: 15px;
+    margin-top: 5px; /* espaçamento da letras*/
+    color: white;
+    font-weight: 1000; /* fonte com borda negrito */
+        border-radius: 10px;
+
 
 
     }
