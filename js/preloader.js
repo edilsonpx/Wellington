@@ -9,15 +9,4 @@
   //]]>
 
 
-//
-
-<!-- início do preloader -->
-  <div id="preloader">
-    <div class="inner">
-     <img src="imagens/fuguete.gif">
-     </div>
-</div>
-<!-- fim do preloader --> 
-
-//
   
