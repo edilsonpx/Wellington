@@ -65,6 +65,35 @@ img{
     clear: both;
 }
 
+
+
+span.carregando{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    display: block;
+    border: 12px solid crimson;
+    border-top: 12px solid transparent;
+    border-radius: 50%;
+
+    animation: loading 1s linear infinite;
+}
+
+@keyframes loading{
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/****** FIM CARREGANDO *******/
+
+
+
 /*******************************************************************/
 
 
@@ -424,34 +453,6 @@ overflow: hidden;
  box-shadow: 0px 0px 10px rgb(0, 0, 0.7);
  text-align: center;
 
-}
-
-
-
-
-
-
-
-
-
-
-
-/* ini: Preloader */
- 
-#preloader {
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#fff; /* cor do background que vai ocupar o body */
-    z-index:999; /* z-index para jogar para frente e sobrepor tudo */
-}
-#preloader .inner {
-    position: absolute;
-    top: 50%; /* centralizar a parte interna do preload (onde fica a animação)*/
-    left: 50%;
-    transform: translate(-50%, -50%);  
 }
 
 
